@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+</style>
+<style>
+  *{
+    font-family: "Open Sans";
+  }
+  th,td,table{
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th,td{
+    padding: 5px;
+  }
+  table{
+    width: 450px;
+    height: 150px;
+  }
+  div{
+    margin: 10px;
+  }
+</style>
+<title>archives</title>
+</head>
+<body>
+<h2 style="padding-left: 10px;">_learning archives</h2>
+<div style="display: flex; gap: 10px;padding: 10px;">
+  <div id="stamps" style="height:200px;width:450px;border:3px outset #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;background-color:white;">
+    <img src="https://64.media.tumblr.com/72352fd8dd4590797c021b8198428826/ce0b070784d02ffd-19/s100x200/e181dfe62b9b3dc7ef2f1476205b721ecfab1fe7.gifv"/>
+  <img src="https://64.media.tumblr.com/fd60ce6a91c6be4676e368a1833be169/ce0b070784d02ffd-36/s100x200/14d234e4ae8e242d8957d9e19e75811bc7eee7bd.gifv"/>
+  <img src="https://64.media.tumblr.com/ff8413878716fa7ea4d743357a10bcfb/ce0b070784d02ffd-0d/s100x200/acb9fb1416758d1430adb0e5a83912b306ad5084.pnj"/>
+  <img src="https://64.media.tumblr.com/22653afb23496a373101eb7dde3ff539/ce0b070784d02ffd-b7/s100x200/8174a8a1500b90130969084e04c37602612babe1.pnj"/>
+  <img src="https://64.media.tumblr.com/478ce44470acc4a9c0004e8085b12549/0a314c1722fc4072-76/s100x200/133a0ec96f0cf2906c6f025f44651ecd1c38b53a.gifv"/>
+  <img src="https://64.media.tumblr.com/40743bab3dd332942d1a2c8d09876f08/0a314c1722fc4072-80/s100x200/9ac81656f8dcb1b57b2061a2ddf47d4918f76bee.pnj"/>
+  <img src="https://64.media.tumblr.com/68bb9e71ec030bfeb579002c6761aa36/f943d9890bee0f57-d7/s100x200/4e6235d22f09d6f581c9ed7602f7efe44b313f2d.gifv"/>
+  <img src="https://64.media.tumblr.com/1501684dede41d6a7864c2f11cd7bf6e/291b57fc1bf1e0d5-19/s100x200/e916d8e83525ad18f0d075d1e809831bcd174ae0.gifv"/>
+  <img src="https://64.media.tumblr.com/0def231160ea2d14c137c9e9ab2e8b2a/700c9d4cb4ea50ba-ae/s75x75_c1/595bb8fe97d6756a32be67e76006e66386b05c00.gifv"/>
+  <img src="https://64.media.tumblr.com/4f56eb3d968bf2df0672560595178131/5d696a7f4d95b9d3-01/s100x200/a997aedcb03a126c629c5ed2e3a533d95274bd9f.gifv"/>
+  <!--blinkies -->
+  <img src="https://64.media.tumblr.com/f5eb77aee6b1463234648f28320251c8/53b28a880a29cd42-e9/s250x400/c81bcd68576bd4e4a1109cb26e601be520df58a5.gifv"/>
+  <img src="https://64.media.tumblr.com/7288c929848491a37af56f346c854981/53b28a880a29cd42-21/s250x400/ecdf9f9387e49301d1221e1d6e7afe3a99feae6d.gifv"/>
+  <img src="https://64.media.tumblr.com/44f30977ebadec73446676dfe46a8fb4/c8da84eade7350ce-ed/s250x400/ce64e3b98dabfee536a8f6a25ff763471cc448ac.gifv"/>
+  <img src="https://64.media.tumblr.com/4d8831fbc68b93e26d0b97dad8d44bf4/535b1578c7d30916-2a/s400x600/7653a0dc9c24602051b918cf5b6db2c2e420501c.gifv"/>
+  <img src=""/>
+  <img src=""/>
+  <!--buttons -->
+  <img src="https://64.media.tumblr.com/59ccd15e538ff5a0f4a1f5d4e6c93fc5/5bf3977f2876ae49-77/s100x200/314463b6a092097968889becd6605f4813cd66fe.jpg"/>
+  <img src="https://64.media.tumblr.com/b068b6a927d2cc60bd8f27dce3523950/5bf3977f2876ae49-2f/s100x200/ea1f6ff1be12c8a26a3636636ff5835ea92c26d7.pnj"/>
+  <img src=""/>
+  <img src=""/>
+  </div>
+  <div style="height:200px;width:450px;border:3px outset #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;background-color:white;">
+    <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+    <table id="myMenu">
+      <tr>
+        <th>post</th>
+        <th>date</th>
+        <th>subject</th>
+      </tr>
+      <tr>
+        <td><a href="/posts.html#imdonewithtiktok" target="_blank">im done with tiktok.</a></td>
+        <td>12.23.24</td>
+        <td>tech</td>
+      </tr>
+      <tr>
+        <td><a href="/posts.html#welcome" target="_blank">welcome</a></td>
+        <td>12.20.24</td>
+        <td>misc</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+
+<script>
+  function myFunction() {
+    // Declare variables
+    var input, filter, table, tr, td, i, txtValue;
+    input = document.getElementById("mySearch");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("myMenu");
+    tr = table.getElementsByTagName("tr");
+
+    // Loop through all table rows, and hide those who don't match the search query
+    for (i = 1; i < tr.length; i++) { // Start from 1 to skip the table header
+      td = tr[i].getElementsByTagName("td");
+      if (td) {
+        // Combine text from all cells in the row
+        txtValue = "";
+        for (var j = 0; j < td.length; j++) {
+          txtValue += td[j].textContent || td[j].innerText;
+        }
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          tr[i].style.display = "";
+        } else {
+          tr[i].style.display = "none";
+        }
+      }
+    }
+  }
+</script>
+
+  
+</body>
+</html>
